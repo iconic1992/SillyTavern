@@ -1,0 +1,94 @@
+{
+    "message": "Request failed with status code 403",
+    "name": "AxiosError",
+    "stack": "AxiosError: Request failed with status code 403\n    at settle (C:\\Users\\19893\\Documents\\GitHub\\SillyTavern\\node_modules\\axios\\dist\\node\\axios.cjs:1909:12)\n    at Unzip.handleStreamEnd (C:\\Users\\19893\\Documents\\GitHub\\SillyTavern\\node_modules\\axios\\dist\\node\\axios.cjs:2989:11)\n    at Unzip.emit (node:events:525:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 60000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+            "Referrer": "https://poe.com/",
+            "Origin": "https://poe.com",
+            "Cookie": "[PB COOKIE DATA REDACTED BY ST CODE]",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Accept-Encoding": "gzip, compress, deflate, br"
+        },
+        "httpAgent": {
+            "_events": {},
+            "_eventsCount": 2,
+            "defaultPort": 80,
+            "protocol": "http:",
+            "options": {
+                "keepAlive": true,
+                "noDelay": true,
+                "path": null
+            },
+            "requests": {},
+            "sockets": {},
+            "freeSockets": {},
+            "keepAliveMsecs": 1000,
+            "keepAlive": true,
+            "maxSockets": null,
+            "maxFreeSockets": 256,
+            "scheduling": "lifo",
+            "maxTotalSockets": null,
+            "totalSocketCount": 0
+        },
+        "httpsAgent": {
+            "_events": {},
+            "_eventsCount": 2,
+            "defaultPort": 443,
+            "protocol": "https:",
+            "options": {
+                "keepAlive": true,
+                "noDelay": true,
+                "path": null
+            },
+            "requests": {},
+            "sockets": {},
+            "freeSockets": {},
+            "keepAliveMsecs": 1000,
+            "keepAlive": true,
+            "maxSockets": null,
+            "maxFreeSockets": 256,
+            "scheduling": "lifo",
+            "maxTotalSockets": null,
+            "totalSocketCount": 0,
+            "maxCachedSessions": 100,
+            "_sessionCache": {
+                "map": {
+                    "poe.com:443:::::::::::::::::::::": {
+                        "type": "Buffer",
+                        "data": "[removed data spam]"
+                    }
+                },
+                "list": [
+                    "poe.com:443:::::::::::::::::::::"
+                ]
+            }
+        },
+        "method": "post",
+        "url": "https://poe.com/Sage"
+    },
+    "code": "ERR_BAD_REQUEST",
+    "status": 403
+}
